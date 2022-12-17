@@ -31,7 +31,7 @@ export default function firstpage() {
             independence, customer focus and serving the best quality to the
             people.
           </div>
-          <div><a href='#'>Explore More</a></div>
+          <div className="link-button"><a href='#' className="link-button-text">Explore more</a></div>
         </div>
 
         <div className="img-caps">

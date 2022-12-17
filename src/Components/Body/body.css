@@ -1,28 +1,62 @@
 .section-container{
-    background-color: black;
-    height: 100%;
+    background: linear-gradient(90.00deg, black,rgb(65, 65, 65));
+    /* height: 100%; */
 }
 .content-space{
     height: 100px;
 }
-/* .main{
+.main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 .main-img-container{
 
 }
 .main-img{
-    width: 100px;
+    width: 200px;
     position: absolute;
-    top: 20px;
     left: 0px;
+    
 }
 .main-body{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-} */
+    margin-top: 75px;
+}
+.main-heading{
+    width: 70%;
+    font-family: 'Zilap Orion Personal Use',sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 125px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: -webkit-linear-gradient(#E65C00,
+    #F9D423);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main-para{
+    width: 65%;
+    color: #ffffff;
+    font-family: Montserrat Alternates;
+font-size: 25px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.bottom-right-container{
+    position: absolute;
+    right: 0;
+}
+.bottom-right-img{
+    /* background: linear-gradient(181.16deg, #FF7917 -26.31%, #FFDD2D 128.88%); */
+    /* transform: matrix(-0.9, -0.48, -0.43, 0.89, 0, 0);   */
+
+}

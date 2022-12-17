@@ -17,16 +17,23 @@ import Cart2 from '../../Assets/images/cart2.svg';
 import App1 from '../../Assets/images/app1.svg';
 import App2 from '../../Assets/images/app2.svg';
 
+import Polyleft from '../../Assets/images/polyleft.svg';
+import Polyright from '../../Assets/images/polyright.svg';
+
 export default function body() {
   return (
     <div className='section-container'>
+      <div className='content-space'></div>
         <div className='main'>
-          <div className='main-img-container'><img src='' className='main-img'/></div>
+          <div className='main-img-container'><img src={Polyleft} className='main-img'/></div>
           <div className='main-body'>
             <div className='main-heading'>The Ramaera Expansion</div>
             <div className='main-para'>We are aiming to be a part of the major industrialisation drive in India and embarking our presence in every significant industrial domain including IT.</div>
           </div>
         </div>
+
+        <div className='content-space'></div>
+        <div className='content-space'></div>
 
 
       <div>
@@ -52,6 +59,8 @@ export default function body() {
       <div>
         <Beta heading={`Get all your essentials in one place`} para={`Ramaera Supermart is an online customer oriented marketplace to motivated to provide everything you need right at one place under the comfort of your homes.`} imageLeft={App2} imageRight={App1}/>
       </div>
+
+      <div className='bottom-right-container'><img src={Polyright} className='bottom-right-img'/></div>
 
     </div>
   )

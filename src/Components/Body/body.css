@@ -1,0 +1,28 @@
+.section-container{
+    background-color: black;
+    height: 100%;
+}
+.content-space{
+    height: 100px;
+}
+/* .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-img-container{
+
+}
+.main-img{
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+.main-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} */
